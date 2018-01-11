@@ -1,0 +1,17 @@
+package gateway.controller;
+
+import java.net.URI;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class GatewayController {
+	@RequestMapping(value="/testDulu/{value}", method=RequestMethod.GET, produces="application/json")
+	public String testDulu(@PathVariable String value) {
+		return value;
+	}
+}

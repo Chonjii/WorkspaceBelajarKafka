@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: hystrixTes
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Infoflow001
+Implementation-Vendor-Id: test.belajar
+Build-Jdk: 1.8.0_141
+Implementation-URL: http://projects.spring.io/spring-boot/hystrixTes/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

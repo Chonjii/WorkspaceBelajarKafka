@@ -1,0 +1,6 @@
+test\belajar\controller\NotifController.class
+test\belajar\NotifMain.class
+test\belajar\consumer\ReceiverConfig.class
+test\belajar\producer\SenderConfig.class
+test\belajar\producer\Sender.class
+test\belajar\consumer\Receiver.class

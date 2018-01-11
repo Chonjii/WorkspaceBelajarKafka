@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;gateway.gatewayMain.java&apos; to &apos;GatewayMain.java&apos;&#x0D;&#x0A;- Original project: &apos;gateway&apos;&#x0D;&#x0A;- Original element: &apos;gateway.gatewayMain.java&apos;&#x0D;&#x0A;- Renamed element: &apos;gateway.GatewayMain.java&apos;" description="Rename compilation unit &apos;gatewayMain.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;gateway{gatewayMain.java" name="GatewayMain.java" references="false" stamp="1515148058704" version="1.0"/>
+</session>

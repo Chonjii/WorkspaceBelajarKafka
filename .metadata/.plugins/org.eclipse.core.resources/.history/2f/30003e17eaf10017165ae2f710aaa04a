@@ -1,0 +1,9 @@
+package com.kafkaoi.consumer;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class ReceiverConfig {
+	
+	@Value("${kafka.bootstrap-servers}");
+	private String bootstrapServers;
+}

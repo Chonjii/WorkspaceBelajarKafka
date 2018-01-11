@@ -1,0 +1,20 @@
+package test.belajar.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+
+@Service
+public class NotifService {
+	@HystrixCommand(fallbackMethod = "defaultGreeting")
+    public String getNotif(String value) {
+        return new RestTemplate()
+          .getForObject("http://localhost:8990/service/{value}", 
+          String.class, value);
+    }
+  
+    private String reliable(String username) {
+        return "Hello User!";
+    }
+}

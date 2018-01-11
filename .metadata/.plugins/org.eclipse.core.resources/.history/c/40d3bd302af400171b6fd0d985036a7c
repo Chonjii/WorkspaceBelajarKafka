@@ -1,0 +1,15 @@
+package hystrixtes.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@RestController
+public class HystrixTesController {
+	@RequestMapping(value="/service/{value}", method=RequestMethod.GET, produces="application/json")
+	public String getString(@PathVariable String value) {
+		//sender.send(topic, value);
+		
+		return value;
+	}
+}

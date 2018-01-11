@@ -1,0 +1,5 @@
+
+jsquid:UselessImportCheck")Remove this unused import 'java.net.URI'.(Ö¦¨°8ùÿ¢,HôRMINORZ
+CODE_SMELL
+squid:UselessImportCheck	"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ8ùÿ¢,HõRMINORZ
+CODE_SMELL

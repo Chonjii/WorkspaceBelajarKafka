@@ -1,0 +1,9 @@
+package gateway;
+
+import org.springframework.boot.SpringApplication;
+
+public class GatewayMain {
+	public static void main(String[] args) {
+		SpringApplication.run(source, args)
+	}
+}

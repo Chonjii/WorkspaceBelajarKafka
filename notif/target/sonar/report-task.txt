@@ -1,0 +1,6 @@
+projectKey=test.belajar:notif
+serverUrl=http://localhost:9000
+serverVersion=6.7.1.35068
+dashboardUrl=http://localhost:9000/dashboard/index/test.belajar:notif
+ceTaskId=AWDfVQRHBRiq0vWj0H9D
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWDfVQRHBRiq0vWj0H9D

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="notif"/>
+<aop-project name="gateway"/>
+<aop-project name="turbines"/>
+<aop-project name="kafka"/>
+<aop-project name="discovery"/>
+<aop-project name="hystrixtes">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/hystrixtes/src/main/java/hystrixtes/HystrixTesMain.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:hystrixtes|3:java:hystrixtes.HystrixTesMain|8:hystrixTesService:9" bean-file="/hystrixtes/src/main/java/hystrixtes/service/HystrixTesService.java" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/hystrixtes/src/main/java/hystrixtes/HystrixTesMain.java" source="=notif/C:\/Users\/Infoflow001\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.12\/hystrix-javanica-1.5.12.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=hystrixtes/src\/main\/java&lt;hystrixtes.service{HystrixTesService.java[HystrixTesService~getNotif~QString;" target-start-line="11"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>

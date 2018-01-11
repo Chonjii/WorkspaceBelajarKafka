@@ -1,0 +1,5 @@
+package hystrixTes.service;
+
+public class HystrixTesService {
+
+}

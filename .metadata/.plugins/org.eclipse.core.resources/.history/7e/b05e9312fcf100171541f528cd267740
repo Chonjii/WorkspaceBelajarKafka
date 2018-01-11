@@ -1,0 +1,2 @@
+server.port=8760
+spring.application.name=discovery

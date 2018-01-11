@@ -1,0 +1,5 @@
+package com.kafkaoi;
+
+public interface SpringKafkaReceiverTest {
+
+}

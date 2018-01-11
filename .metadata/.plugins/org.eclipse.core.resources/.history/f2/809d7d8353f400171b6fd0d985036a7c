@@ -1,0 +1,9 @@
+server.port=9090
+spring.application.name=zuul-server
+eureka.client.serviceUrl.defaultZone=http://127.0.0.1:8761/eureka/
+endpoints.routes.sensitive=false
+ribbon.eureka.enabled=true
+ribbon.ConnectTimeout=200000
+ribbon.ReadTimeout=200000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=10000
+health.hystrix.enabled=true 

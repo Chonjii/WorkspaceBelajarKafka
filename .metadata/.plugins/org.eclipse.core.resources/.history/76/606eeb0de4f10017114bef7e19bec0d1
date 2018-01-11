@@ -1,0 +1,5 @@
+package com.kafkaoi.producer;
+
+public class Sender {
+
+}

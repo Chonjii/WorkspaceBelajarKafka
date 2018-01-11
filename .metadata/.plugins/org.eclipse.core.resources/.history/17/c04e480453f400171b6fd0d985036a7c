@@ -1,0 +1,12 @@
+server.port=9090
+spring.application.name=zuul-server
+eureka.client.serviceUrl.defaultZone=http://127.0.0.1:8761/eureka/
+endpoints.routes.sensitive=false
+zuul.host.max-per-route-connections=2000
+zuul.host.max-total-connections=2000
+zuul.host.socket-timeout-millis=2000000
+zuul.host.connect-timeout-millis=10000
+ribbon.readTimeout=10000
+hystrix.command.default.execution.isolation.strategy=THREAD
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=10000
+health.hystrix.enabled=true 

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: turbines
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Infoflow001
+Implementation-Vendor-Id: test.belajar
+Build-Jdk: 1.8.0_141
+Implementation-URL: http://projects.spring.io/spring-boot/turbines/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
